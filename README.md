@@ -1,4 +1,4 @@
-# managed-secure-sftp-using-terrafrom
+# managed-secure-sftp-using-terraform
 
 ### Purpose
 Terraform stack to deploy an S3 Bucket backed SFTP server (Based on the **AWS Transfer Family** service) in AWS using static IP addresses that will restrict incoming connections to specific IP ranges. Authentication is password based using AWS Lambda for validation with passwords stored in AWS Secrets Manager. **Please see the note below in the Cleanup section that setting up this SFTP server will cost you real money - there is no free tier!!**
